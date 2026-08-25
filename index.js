@@ -17,12 +17,12 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || '81960df1-9f0f-4727-bcbd-014cd6cb09f9';
+const UUID = process.env.UUID || 'aef8acbb-cdd7-4fa4-a349-0e0fabc5aa46';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
 const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
-const SUB_PATH = process.env.SUB_PATH || 'vml';           
+const SUB_PATH = process.env.SUB_PATH || 'out';           
 const NAME = process.env.NAME || 'Vercel';                       
 const PORT = process.env.PORT || 3000;                    
 
